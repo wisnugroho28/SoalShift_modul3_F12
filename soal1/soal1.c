@@ -38,7 +38,4 @@ int main(int argc, char** argv)
        pthread_join(threads[x], NULL);
     
     for(x = 0; x < 100; x++)
-        if(n[x] != 0) printf("%d! = %llu\n", x, n[x]);
-                                                                                  [ Read 40 lines ]
-^G Get Help     ^O Write Out    ^W Where Is     ^K Cut Text     ^J Justify      ^C Cur Pos      M-U Undo        M-A Mark Text   M-] To Bracket  M-▲ Previous    ^B Back
-^X Exit         ^R Read File    ^\ Replace      ^U Uncut Text   ^T To Spell     ^_ Go To Line   M-E Redo        M-6 Copy Text   M-W WhereIs NextM-▼ Next        ^F Forward
+        if(n[x] != 0) printf("%d! = %llu\n", x, n[x]);                                                                                  [ Read 40 lines ]
